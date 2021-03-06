@@ -9,6 +9,7 @@ print("Well " + name +" I am thinking of number between 1 to 20")
 
 secretnumber = random.randint(1,20)
 
+print("Debug: Secretnumber is " + str(secretnumber))
 for guesstaken in range(1,7):
     print("Take a guess")
     guess = int(input())
