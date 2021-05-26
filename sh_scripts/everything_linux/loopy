@@ -1,0 +1,13 @@
+#!/bin/bash
+
+x=0
+
+echo "Give me a number"
+read num
+echo "Cool, I can count to $num, check it out"
+
+while [ $num -gt $x ]
+do
+ let x=x+1
+ echo $x
+done

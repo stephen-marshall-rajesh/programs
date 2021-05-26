@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# if [ -a FILE ] (true if file exists file can be file path or string variable containing file path
+
+# -a or -e --> File exists or not
+# -d if file exists and is directory
+# -f file exists and is regular file and nor dir or link
+# -h or -L --> it is a symbolic link
+# -r or -w  file exists and is readable by script
+#  -x File exists and is executable by script
+# -s File exisits and size is greater than zero
+
+# for strings e.g [ -z $str ] if string is null -n option for string is not null
+
+
+
+
+MYFILE="./thefile.txt"
+
+if [ -a $MYFILE ]
+then
+ rm $MYFILE
+else
+ touch $MYFILE
+fi

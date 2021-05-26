@@ -1,0 +1,15 @@
+#!/bin/bash
+
+best="biriyani"
+
+echo "can you guess the best food"
+read guess
+
+until [ $guess == $best ]
+do
+   echo "Guess again"
+   read guess
+done
+
+echo "Yes you did  it correct"
+

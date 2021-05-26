@@ -1,0 +1,15 @@
+#!/bin/bash
+
+MYNAME="Stephen"
+
+echo "My name is Stephen, what is your name"
+read YOURNAME
+
+if [ $MYNAME = $YOURNAME ]
+then
+ echo "We have the same name"
+else
+ echo "We are different"
+fi
+
+
