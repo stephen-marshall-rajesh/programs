@@ -1,5 +1,5 @@
 import json
-import urllib
+import urllib.request
 from pprint import pprint
 
 def get_local_weather():
